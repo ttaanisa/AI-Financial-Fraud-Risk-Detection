@@ -1,45 +1,101 @@
-📌 Project Title
+# 🚀 AI Financial Fraud Detection & Risk Scoring System
 
-AI-Driven Financial Fraud and Risk Detection Framework
+## 📌 Overview
+This project develops a machine learning–based system for detecting fraudulent financial transactions and classifying them into actionable risk levels. It combines data science, financial analysis, and audit principles to support fraud prevention and financial decision-making.
 
-📖 Project Overview
+---
 
-This project develops a machine learning–based framework for detecting fraudulent and high-risk financial transactions. It combines data science techniques with financial audit principles to identify anomalies, assess risk levels, and support better financial decision-making. This project also explores how AI can enhance financial transparency, strengthen internal controls, and support more resilient financial systems.
+## 🎯 Key Features
+- Fraud detection using machine learning models  
+- Comparison of multiple models (Logistic Regression, Balanced Model, Random Forest)  
+- Handling of imbalanced financial datasets  
+- Risk scoring system (Low, Medium, High)  
+- Performance evaluation using precision, recall, and F1-score  
 
-🎯 Objective
+---
 
-To design and implement a system that:
+## 📊 Final Model Performance (Random Forest)
+- Precision: **0.97**
+- Recall: **0.77**
+- F1-score: **0.86**
 
-Detects fraudulent transactions using machine learning
-Classifies transactions into risk categories (Low, Medium, High)
-Provides interpretable insights for audit and risk analysis
-Supports financial system integrity and fraud prevention
-❗ Problem Statement
+The model achieves a strong balance between detecting fraud and minimizing false positives.
 
-Financial fraud continues to pose a significant threat to financial institutions, businesses, and economic systems. Traditional rule-based systems are often insufficient in detecting complex and evolving fraud patterns. There is a need for intelligent, data-driven approaches that can identify suspicious behavior in real time and support audit and risk monitoring processes.
+---
 
-🇺🇸 National Importance
+## 🧠 Key Insight
+Fraud detection is not just about accuracy. Due to severe class imbalance, models must balance:
+- Detecting fraudulent transactions (recall)
+- Avoiding false alarms (precision)
 
-Financial fraud impacts economic stability, consumer trust, and institutional integrity. Developing advanced tools for fraud detection contributes to stronger financial systems, improved regulatory compliance, and enhanced risk management practices. This project aligns with the growing need for AI-driven solutions in financial oversight and security.
+---
 
-🧠 Research Question
+## 🛠️ Technologies Used
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
 
-How can machine learning be applied to detect fraudulent or high-risk financial transactions while providing meaningful insights for audit and risk analysis?
+---
 
-🛠️ Methodology (Planned)
-Data collection and preprocessing
-Exploratory data analysis (EDA)
-Machine learning model development
-Model evaluation and optimization
-Risk scoring and audit interpretation
-Dashboard or application development
-📊 Expected Outcomes
-A working fraud detection model
-Risk classification system
-Visual dashboard or demo application
-Research-style report documenting findings
-🔗 Tools & Technologies
-Python (Pandas, NumPy, Scikit-learn)
-Visualization (Matplotlib, Seaborn, Tableau/Streamlit)
-Machine Learning Models
-GitHub for version control
+## 📁 Project Structure
+```
+AI-Financial-Fraud-Risk-Detection/
+│
+├── fraud_detection.py      # Main script
+├── README.md               # Project documentation
+├── .gitignore              # Ignore large files
+└── data/                   # Dataset (not uploaded to GitHub)
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+```
+git clone https://github.com/ttaanisa/AI-Financial-Fraud-Risk-Detection.git
+```
+
+2. Navigate to the project folder:
+```
+cd AI-Financial-Fraud-Risk-Detection
+```
+
+3. Install dependencies:
+```
+pip install pandas scikit-learn matplotlib
+```
+
+4. Run the script:
+```
+python fraud_detection.py
+```
+
+---
+
+## 📌 Note on Dataset
+
+The dataset used for this project is not included in this repository due to GitHub file size limits.
+
+You can download the dataset from:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Place the file in:
+```
+data/creditcard.csv
+```
+
+---
+
+## 💡 Future Improvements
+- Real-time fraud detection system  
+- Deployment using Flask or FastAPI  
+- Dashboard for monitoring fraud risk  
+- Integration with financial transaction systems  
+
+---
+
+## 👤 Author
+Takudzwa Taanisa  
+Master’s in Global Management (Data Science) – Arizona State University  
