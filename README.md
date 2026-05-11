@@ -65,6 +65,16 @@ The model achieves a strong balance between detecting fraudulent transactions an
 
 ---
 
+## 📊 Risk Scoring Dashboard
+
+### Medium Risk Example
+![Medium Risk](Screenshots/medium_risk_dashboard.png)
+
+### High Risk Example
+![High Risk](Screenshots/high_risk_dashboard.png)
+
+---
+
 ## 🧠 Key Insight
 
 Fraud detection is not just about accuracy. Due to severe class imbalance in financial datasets, models must balance:
@@ -142,7 +152,9 @@ The dataset is not included due to GitHub file size limitations.
 
 Download it from:
 
+```text
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+```
 
 Then place it in:
 
